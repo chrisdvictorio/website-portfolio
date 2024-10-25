@@ -6,9 +6,8 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
 
-import design from "./assets/try4.png";
+import design from "./assets/design.png";
 
 const App = () => {
   return (

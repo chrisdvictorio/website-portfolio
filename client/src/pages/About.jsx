@@ -294,7 +294,7 @@ const About = () => {
 
               <li className="w-full md:h-40 rounded-xl border border-[#1E1E1E] bg-[#141414] hover:bg-[#1F1F1F] group">
                 <a
-                  href="https://github.com/Ishmimi"
+                  href="https://github.com/chrisdvictorio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex md:flex-col md:items-start md:justify-between items-center px-3 py-2 md:p-6 h-full gap-2"
@@ -310,7 +310,7 @@ const About = () => {
                     <div>
                       <p className="text-sm font-bold text-[#CCCCCC]">GitHub</p>
                       <p className="text-xs text-[#7A7A7A]">
-                        www.github.com/Ishmimi
+                        www.github.com/chrisdvictorio
                       </p>
                     </div>
                     <FaArrowRight className="size-5 -rotate-45 md:hidden text-[#7A7A7A]" />

@@ -17,7 +17,7 @@ const projectsData = [
     description: `A face recognition monitoring system designed to verify the identity of DLSUD dormitory residents. It records entry and exit times to apply monitoring and enhance safety. This system create a more secure and reliable environment for residents by minimizing unauthorized access and ensuring accountability.`,
     image: facerecognition,
     stack: ["Python", "PHP", "MySQL", "Bootstrap"],
-    link: "https://github.com/Ishmimi",
+    link: "https://github.com/chrisdvictorio",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const projectsData = [
     description: `A web-based platform for creating and sharing blog posts, designed with a simple yet appealing interface. Users can create, update, delete and manage blog content effectively, with additional features for liking, saving posts, and following other users.`,
     image: blogapp,
     stack: ["React JS", "Node JS", "MongoDB", "Tailwind"],
-    link: "https://github.com/Ishmimi",
+    link: "https://github.com/chrisdvictorio/blog-app",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projectsData = [
     description: `A messaging application built using Socket.io for real-time communication. It supports private messaging and group chats and with real-time online status. Additionally, it archives all images sent by users for easy retrieval, enhancing engagement and fostering meaningful connections.`,
     image: messengerapp,
     stack: ["React JS", "Node JS", "MongoDB", "Tailwind"],
-    link: "https://github.com/Ishmimi",
+    link: "https://github.com/chrisdvictorio/messenger-app",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const projectsData = [
     description: `A task manager designed for organizing, prioritizing, and tracking tasks to improve efficiency. Users can mark tasks as completed or pending, categorize them depending on their complexity, and view all tasks.`,
     image: taskmanagerapp,
     stack: ["React JS", "Node JS", "MongoDB", "Tailwind"],
-    link: "https://github.com/Ishmimi",
+    link: "https://github.com/chrisdvictorio",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const projectsData = [
     description: `A responsive portfolio template inspired by Bento design, showcasing a summary of my projects, skills, and about me across devices. It features a clean look on both mobile and desktop. This project helped me enhance my skills in Tailwind.`,
     image: bentoportfolio,
     stack: ["HTML 5", "CSS 3", "Tailwind"],
-    link: "https://github.com/Ishmimi",
+    link: "https://github.com/chrisdvictorio/bento-portfolio",
   },
 ];
 

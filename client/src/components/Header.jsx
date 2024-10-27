@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 import { GoHome } from "react-icons/go";
-import { FaCode, FaLinkedin } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { FaFile } from "react-icons/fa6";
 import { IoFileTrayFullOutline, IoPersonOutline } from "react-icons/io5";
 
 import logo from "../assets/logo.png";
@@ -91,12 +92,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://www.linkedin.com/in/chris-victorio/"
+          href="/assets/Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-md text-[#CCCCCC] hover:text-[#E2FF02] border border-[#262626] bg-[#131313]"
+          className="p-2 rounded-full text-[#CCCCCC] hover:text-[#E2FF02] border border-[#262626] bg-[#131313]"
         >
-          <FaLinkedin className="size-5" />
+          <FaFile />
         </a>
       </div>
 

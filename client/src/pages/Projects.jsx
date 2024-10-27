@@ -29,7 +29,7 @@ const projectsData = [
   {
     id: 3,
     title: "Messenger App",
-    description: `A messaging application built using Socket.io for real-time communication. It supports private messaging and group chats and with real-time online status. Additionally, it archives all images sent by users for easy retrieval, enhancing engagement and fostering meaningful connections.`,
+    description: `A messaging application built using Socket.io for real-time communication. It supports private messaging and group chats, along with real-time online status. Additionally, it archives all images sent by users for easy retrieval, allowing users to effortlessly access their shared media and conversations at any time.`,
     image: messengerapp,
     stack: ["React JS", "Node JS", "MongoDB", "Tailwind"],
     link: "https://github.com/chrisdvictorio/messenger-app",

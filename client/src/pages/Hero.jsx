@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Description, Dialog, DialogTitle } from "@headlessui/react";
 
-import { FaShareAlt } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoIosArrowDown, IoMdClose } from "react-icons/io";
-import { FaFile } from "react-icons/fa6";
 import { IoInformationCircle } from "react-icons/io5";
 
 import herobg from "../assets/hero-bg.png";
@@ -92,15 +91,24 @@ const Hero = () => {
             </h2>
           </div>
           <div className="flex items-center justify-center lg:justify-start gap-2">
-            <a href="/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/chris-victorio/"
+            >
               <div className="flex items-center px-3 py-1 gap-2 rounded-md border border-[#262626] bg-[#161616] hover:bg-[#1F1F1F]">
-                <FaFile className="text-[#CCCCCC]" />
-                <p className="font-titan text-[#CCCCCC]">RESUME</p>
+                <FaLinkedin className="text-[#CCCCCC]" />
+                <p className="font-titan text-[#CCCCCC]">LINKED IN</p>
               </div>
             </a>
-            <a href="/">
-              <div className="flex items-center p-2 rounded-md border border-[#262626] bg-[#161616] hover:bg-[#1F1F1F]">
-                <FaShareAlt className="text-[#CCCCCC]" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/chrisdvictorio"
+            >
+              <div className="flex items-center px-3 py-1 gap-2 rounded-md border border-[#262626] bg-[#161616] hover:bg-[#1F1F1F]">
+                <FaGithub className="text-[#CCCCCC]" />
+                <p className="font-titan text-[#CCCCCC]">GITHUB</p>
               </div>
             </a>
           </div>

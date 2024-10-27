@@ -148,7 +148,9 @@ const About = () => {
             </div>
             <div className="flex gap-6">
               <a
-                href=""
+                href="/assets/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center px-4 py-1 gap-2 w-full rounded-md border border-[#212121] bg-[#191919] hover:bg-[#1F1F1F]"
               >
                 <FaFile className="size-3 text-[#E2FF02]" />

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
 import facerecognition from "../assets/projects/facerecognition.png";
+import socialmediaapp from "../assets/projects/socialmediaapp.png";
 import blogapp from "../assets/projects/blogapp.png";
 import messengerapp from "../assets/projects/messengerapp.png";
 import taskmanagerapp from "../assets/projects/taskmanagerapp.png";
@@ -20,6 +21,14 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Social Media Application",
+    description: `A social media platform designed for users to connect, share, and interact. The application provides an intuitive interface for creating, updating, and managing content such as posts, photos, and blogs. Users can engage with others by liking, saving content, commenting, and following profiles. The platform also features live messaging for real-time communication.`,
+    image: socialmediaapp,
+    stack: ["Typescript", "React JS", "Node JS", "Postgre"],
+    link: "https://github.com/chrisdvictorio/blog-app",
+  },
+  {
+    id: 3,
     title: "Blog Application",
     description: `A web-based platform for creating and sharing blog posts, designed with a simple yet appealing interface. Users can create, update, delete and manage blog content effectively, with additional features for liking, saving posts, and following other users.`,
     image: blogapp,
@@ -27,7 +36,7 @@ const projectsData = [
     link: "https://github.com/chrisdvictorio/blog-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Messenger App",
     description: `A messaging application built using Socket.io for real-time communication. It supports private messaging and group chats, along with real-time online status. Additionally, it archives all images sent by users for easy retrieval, allowing users to effortlessly access their shared media and conversations at any time.`,
     image: messengerapp,
@@ -35,7 +44,7 @@ const projectsData = [
     link: "https://github.com/chrisdvictorio/messenger-app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Task Manager",
     description: `A task manager designed for organizing, prioritizing, and tracking tasks to improve efficiency. Users can mark tasks as completed or pending, categorize them depending on their complexity, and view all tasks.`,
     image: taskmanagerapp,
@@ -43,7 +52,7 @@ const projectsData = [
     link: "https://github.com/chrisdvictorio",
   },
   {
-    id: 5,
+    id: 6,
     title: "Bento Portfolio",
     description: `A responsive portfolio template inspired by Bento design, showcasing a summary of my projects, skills, and about me across devices. It features a clean look on both mobile and desktop. This project helped me enhance my skills in Tailwind.`,
     image: bentoportfolio,
@@ -104,6 +113,8 @@ const Projects = () => {
     MySQL: "text-[#F0910E]",
     Tailwind: "text-[#38B2AC]",
     Bootstrap: "text-[#8D12FC]",
+    Typescript: "text-[#3178C6]",
+    Postgre: "text-[#336791]",
   };
 
   return (

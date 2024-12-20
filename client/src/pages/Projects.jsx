@@ -148,7 +148,7 @@ const Projects = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative flex flex-col justify-between md:w-[20rem] lg:w-[22rem] 2xl:w-[26rem] p-4 gap-4 rounded-2xl border border-[#262626] bg-[#161616] hover:bg-[#1F1F1F] group"
+              className="relative flex flex-col justify-start md:w-[20rem] lg:w-[22rem] 2xl:w-[26rem] p-4 gap-4 rounded-2xl border border-[#262626] bg-[#161616] hover:bg-[#1F1F1F] group"
             >
               <div className="absolute top-3 right-3 p-2 rounded-xl border border-[#282828] bg-[#1F1F1F]">
                 <FaGithub className="size-5 text-[#7A7A7A] group-hover:text-[#E2FF02] group-hover:animate-bounce" />

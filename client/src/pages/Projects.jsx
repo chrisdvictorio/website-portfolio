@@ -25,7 +25,7 @@ const projectsData = [
     description: `A social media platform designed for users to connect, share, and interact. The application provides an intuitive interface for creating, updating, and managing content such as posts, photos, and blogs. Users can engage with others by liking, saving content, commenting, and following profiles. The platform also features live messaging for real-time communication.`,
     image: socialmediaapp,
     stack: ["Typescript", "React JS", "Node JS", "Postgre"],
-    link: "https://github.com/chrisdvictorio/blog-app",
+    link: "https://github.com/chrisdvictorio/social-media-app",
   },
   {
     id: 3,

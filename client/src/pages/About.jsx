@@ -142,7 +142,7 @@ const About = () => {
                 </li>
                 <li className="flex items-center gap-2 px-2 py-1 rounded-full border border-[#212121] bg-[#191919]">
                   <FaHeart className="size-4 text-[#E2FF02]" />
-                  <p className="text-sm text-[#CCCCCC]">Attack On Titan</p>
+                  <p className="text-sm text-[#CCCCCC]">MERN Stack</p>
                 </li>
               </ul>
             </div>

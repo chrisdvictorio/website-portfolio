@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 import { GoHome } from "react-icons/go";
 import { FaCode } from "react-icons/fa";
-import { FaFile } from "react-icons/fa6";
+import { FaFile, FaGithub } from "react-icons/fa6";
 import { IoFileTrayFullOutline, IoPersonOutline } from "react-icons/io5";
 
 import logo from "../assets/logo.png";
@@ -92,12 +92,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="/assets/Resume.pdf"
+          href="https://github.com/chrisdvictorio"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-full text-[#CCCCCC] hover:text-[#E2FF02] border border-[#262626] bg-[#131313]"
         >
-          <FaFile />
+          <FaGithub />
         </a>
       </div>
 

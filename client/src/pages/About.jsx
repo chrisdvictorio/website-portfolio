@@ -148,13 +148,13 @@ const About = () => {
             </div>
             <div className="flex gap-6">
               <a
-                href="/assets/Resume.pdf"
+                href="https://github.com/chrisdvictorio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center px-4 py-1 gap-2 w-full rounded-md border border-[#212121] bg-[#191919] hover:bg-[#1F1F1F]"
               >
-                <FaFile className="size-3 text-[#E2FF02]" />
-                <p className="text-[#CCCCCC]">Resume</p>
+                <FaGithub className="size-4 text-[#E2FF02]" />
+                <p className="text-[#CCCCCC]">Github</p>
               </a>
               <a
                 href="https://www.linkedin.com/in/chris-victorio/"

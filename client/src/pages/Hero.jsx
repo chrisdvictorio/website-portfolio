@@ -208,7 +208,7 @@ const Hero = () => {
                 className="cursor-pointer"
               >
                 <div className="flex items-center justify-center w-[3rem] h-[3rem] bg-gray-800 rounded-full">
-                  <p className="text-[#CCCCCC]">+10</p>
+                  <p className="text-[#CCCCCC]">+16</p>
                 </div>
               </Link>
             </motion.li>

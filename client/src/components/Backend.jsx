@@ -8,6 +8,7 @@ import jwt from "../assets/skills/jwt.svg";
 import prisma from "../assets/skills/prisma.png";
 import socket from "../assets/skills/socket.png";
 import python from "../assets/skills/python.png";
+import java from "../assets/skills/java.png";
 
 const backendSkills = [
   { name: "Node JS", image: nodejs, alt: "Node JS" },
@@ -18,6 +19,7 @@ const backendSkills = [
   { name: "Prisma", image: prisma, alt: "Prisma" },
   { name: "Socket.io", image: socket, alt: "Socket.io" },
   { name: "Python", image: python, alt: "Python" },
+  { name: "Java", image: java, alt: "Java" },
 ];
 
 const Backend = () => {
